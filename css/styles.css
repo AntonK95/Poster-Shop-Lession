@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    /*background-color: black;*/
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    /*
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+.poster-card-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.small-card {
+    height: auto;
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.small-card-img {
+    height: 100%;
+    width: auto;
+}
