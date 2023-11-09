@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
 body {
+    font-family: 'Fira Sans', sans-serif;
     padding: 0;
     margin: 0;
     background-color: rgba(0, 0, 0, 1);
@@ -108,19 +112,29 @@ h2 {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;*/
     background-color: rgba(255, 255, 255, 0.2);
     
 }
 
+section.footer-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+figure {
+    margin: 0;
+}
+/*
 ul {
     list-style: none;
     margin-bottom: 0;
     margin: 4rem;
     color: whitesmoke;
 }
-/* allt detta går att göra i ett stycke ovan
+
+Allt detta går att göra i ett stycke ovan
 ul.nav {
     list-style: none;
     margin-bottom: 0;
